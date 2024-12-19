@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B3AF9762-C3EF-9F4A-13D6-FD119FF6102F" name="Adres">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-23 22:16:37 UTC</createdTime>
+<generatorID>D47E078A-301A-B29B-E49C-BB1FEFB477EF</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="straat" id="19CAF53D-ADB3-7678-0088-8EDDDCFA6DB0">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-23 22:16:37 UTC</createdTime>
+<generatorID>9679CEC0-EED6-5650-443C-7D59AFEE3DB3</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nummer" id="32C8AF7B-0DCE-8DCA-D96F-037C0853C776">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-23 22:16:37 UTC</createdTime>
+<generatorID>3DFFE8ED-724F-AD82-DBC2-53DD2B6780EB</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postcode" id="EDC5D41D-819D-351A-9EA4-9D0F74F34AA5">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-23 22:16:37 UTC</createdTime>
+<generatorID>B8430593-520F-5240-11A6-8CD6664E3A6D</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

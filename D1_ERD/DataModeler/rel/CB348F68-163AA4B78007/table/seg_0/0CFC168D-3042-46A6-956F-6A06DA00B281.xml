@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0CFC168D-3042-46A6-956F-6A06DA00B281" name="Winkel">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-09 08:19:04 UTC</createdTime>
+<generatorID>DC4A4E9E-9496-54E5-D2D2-5FCE690AD85A</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="winkel_naam" id="29C85302-8F31-31D4-4CF5-A805544FB83A">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-09 08:19:04 UTC</createdTime>
+<generatorID>946D5D04-5DAD-FB49-65E1-95E9F92E25B9</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="winkel_email" id="69ADBE27-89BE-5BB5-4354-D68E93A15ACD">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-09 08:19:04 UTC</createdTime>
+<generatorID>25C73A67-A1A4-E96E-4199-9DAC01ED057F</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stock" id="5EDE3187-91A7-69E6-E8ED-0966560A57AF">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-09 08:19:04 UTC</createdTime>
+<generatorID>769B78F5-EA96-E61E-B5B1-ACE054751CB3</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="winkel_adres" id="89ED249D-5F75-4167-B4CD-9733A08B42E7">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-09 08:19:04 UTC</createdTime>
+<generatorID>91B1D6DA-5311-81D4-35C2-FA42766B105B</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="winkel_id" id="E7EEE41C-A97C-7E4A-4C8B-5CB558B76A1C">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-09 08:19:04 UTC</createdTime>
+<generatorID>E1FE8A0C-AA0F-7A52-BBA4-FB8B5E58DC82</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="winkel_telefoon" id="E128D340-AB2B-DA9F-2011-0999BB64A516">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-09 08:19:04 UTC</createdTime>
+<generatorID>C5D4D927-6FDA-031B-2AB8-38247D73E29D</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F746CC6-412A-2ACD-45E6-A2FFF2D41E04" name="Winkel_PK">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-09 08:19:04 UTC</createdTime>
+<generatorID>5FC1C7C4-F5EA-819C-5F09-FB5721C39329</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7EEE41C-A97C-7E4A-4C8B-5CB558B76A1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

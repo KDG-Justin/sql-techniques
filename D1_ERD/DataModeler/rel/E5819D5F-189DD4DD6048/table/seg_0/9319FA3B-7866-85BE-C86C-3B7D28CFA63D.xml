@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9319FA3B-7866-85BE-C86C-3B7D28CFA63D" name="Bedrijf">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-23 22:16:37 UTC</createdTime>
+<generatorID>8779E829-1063-038C-F86D-A96CC93C9B03</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="naam" id="DD2DA905-AD16-A4DD-7EE0-D563D17833FC">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-23 22:16:37 UTC</createdTime>
+<generatorID>2ADAAF8D-55E3-897E-C0EB-0A247C179E10</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bedrijfId" id="E0548707-E34E-C3D0-F208-0A401F8341FA">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-23 22:16:37 UTC</createdTime>
+<generatorID>4FD94E10-98B3-6FA8-5AE8-308DDAA66F80</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bedrijf_adres" id="4F9139C1-E9B8-A601-D189-6C25668B7569">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-23 22:16:37 UTC</createdTime>
+<generatorID>CEEA8559-1972-31E5-A546-F9AF7C1D8184</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A43B87A-C34A-4DDE-68F6-460DFFD7647C" name="Bedrijf_PK">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-23 22:16:37 UTC</createdTime>
+<generatorID>26746AC7-6A91-7840-00B0-7718C9512812</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0548707-E34E-C3D0-F208-0A401F8341FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

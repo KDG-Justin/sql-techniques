@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="319FD1E4-15DD-89A1-050F-FE3D539D2E90" name="OrderLijn">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-27 19:37:48 UTC</createdTime>
+<generatorID>CB06607C-073F-176B-BA32-EF0DAF2A0EC6</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="orderLijnId" id="487B09D4-88F7-044A-DB0F-CF39EBD8C5E2">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-27 19:37:48 UTC</createdTime>
+<generatorID>76E9C60A-55F6-38E1-42D8-63A24AE2D9CF</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Console_consoleNaam" id="15E2C51B-C9BF-D5C0-38D9-47CB383AA29E">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-27 19:37:48 UTC</createdTime>
+<generatorID>78C9E192-55AE-2C99-9009-5104D834E137</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aantal" id="961C09B3-B6A2-5D1C-1715-6F6B7A0E4FC4">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-27 19:37:48 UTC</createdTime>
+<generatorID>B78AC7A1-23FA-1F24-ED42-0BAB1DFE739B</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prijs" id="96EE9678-2AA9-7D62-1123-B720FA8BCB0B">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-27 19:37:48 UTC</createdTime>
+<generatorID>2F56A03E-6EE4-0D12-C068-8CCB4B613071</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="12B88F9B-33D7-2038-E84E-BB79CBE04E35" name="OrderLijn_PK">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-27 19:37:48 UTC</createdTime>
+<generatorID>64BE4546-ACA0-4880-9CC1-B4762E8364A4</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="487B09D4-88F7-044A-DB0F-CF39EBD8C5E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0D2AD36-FB21-6177-3F4C-93075326BA07" name="Adres">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 15:16:08 UTC</createdTime>
+<generatorID>D47E078A-301A-B29B-E49C-BB1FEFB477EF</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="straat" id="F407ADC5-5CC5-6C76-9D6D-B24ADC526CCF">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 15:16:08 UTC</createdTime>
+<generatorID>9679CEC0-EED6-5650-443C-7D59AFEE3DB3</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nummer" id="30C0B71C-DA61-6A7F-A39A-BC72DC596A91">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 15:16:08 UTC</createdTime>
+<generatorID>3DFFE8ED-724F-AD82-DBC2-53DD2B6780EB</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postcode" id="021554C8-A205-F08C-76CD-B22D87D8C489">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 15:16:08 UTC</createdTime>
+<generatorID>B8430593-520F-5240-11A6-8CD6664E3A6D</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="142922CB-8116-982B-F5BC-0F60AEE64EE4" name="Adres_PK">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 15:16:08 UTC</createdTime>
+<generatorID>7612C268-88E4-F017-83B4-F99836104E33</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

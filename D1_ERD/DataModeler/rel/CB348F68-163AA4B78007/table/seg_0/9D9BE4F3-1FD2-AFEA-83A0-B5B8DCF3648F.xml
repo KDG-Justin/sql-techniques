@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D9BE4F3-1FD2-AFEA-83A0-B5B8DCF3648F" name="Klant">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-09 08:19:04 UTC</createdTime>
+<generatorID>1B2F5CB6-7744-DA6D-C762-9CE29D38F042</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="voornaam" id="C10B3F12-67D2-6C93-714B-FEA943446508">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-09 08:19:04 UTC</createdTime>
+<generatorID>5282DFC4-7BB0-7149-7414-DC503EF14DAE</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="achternaam" id="E2A79C50-D4C0-6EF1-B4A4-FEAAD529A0FC">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-09 08:19:04 UTC</createdTime>
+<generatorID>81211D83-F02E-A807-3CBF-6A7ADC48D543</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="klantId" id="1F56CEB3-71CD-1EEA-C917-0FFFD8DF570D">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-09 08:19:04 UTC</createdTime>
+<generatorID>B760577A-190F-0E89-7334-A58544CF52E2</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="leeftijd" id="A4A246BD-5DB2-1B75-FA29-7CD692141DA8">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-09 08:19:04 UTC</createdTime>
+<generatorID>CBFF777D-9715-DB1F-C71C-B5C96098AF6A</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adres" id="8763E462-6C7D-AC70-B59D-8CD4C003C410">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-09 08:19:04 UTC</createdTime>
+<generatorID>5FB3E0CF-8D93-178C-A1D6-F62E8DAFB1D3</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="17CD5101-CC42-707A-FCA0-4374B7A36D1E" name="Klant_PK">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-09 08:19:04 UTC</createdTime>
+<generatorID>AB0F89BB-D271-B30C-0D8A-14004482B577</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F56CEB3-71CD-1EEA-C917-0FFFD8DF570D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

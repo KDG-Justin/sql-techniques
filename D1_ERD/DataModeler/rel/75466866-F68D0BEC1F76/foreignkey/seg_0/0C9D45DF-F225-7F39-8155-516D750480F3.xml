@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0C9D45DF-F225-7F39-8155-516D750480F3" containerWithKeyObject="1ADCE60E-429D-5950-82CC-CB8528431A6D" localFKIndex="C5F8D5C4-33DC-99F2-8E2B-498E8E90E70F" name="Werknemer_Werknemer_FK">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-27 19:37:48 UTC</createdTime>
+<generatorID>ED9AEC0C-CBB2-E3C5-B7FC-4576A4C2B48E</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<referredTableLongName>Werknemer</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1ADCE60E-429D-5950-82CC-CB8528431A6D</referredTableID>
+<keyObject>51476C8B-D536-8660-FBBD-F76EBC5C4E06</keyObject>
+<referredKeyID>51476C8B-D536-8660-FBBD-F76EBC5C4E06</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id,Winkel_winkel_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

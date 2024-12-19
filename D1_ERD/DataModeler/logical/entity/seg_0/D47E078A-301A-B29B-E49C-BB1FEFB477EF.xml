@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D47E078A-301A-B29B-E49C-BB1FEFB477EF" name="Adres">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-15 08:38:15 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="straat" id="9679CEC0-EED6-5650-443C-7D59AFEE3DB3">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-15 08:38:22 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nummer" id="3DFFE8ED-724F-AD82-DBC2-53DD2B6780EB">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-15 08:39:11 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="postcode" id="B8430593-520F-5240-11A6-8CD6664E3A6D">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-15 08:39:28 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7612C268-88E4-F017-83B4-F99836104E33" name="Adres PK">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-27 19:41:31 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

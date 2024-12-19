@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="00F5E890-5695-E0A0-E57F-EE12B9271C4B" containerWithKeyObject="DB98F0E7-023C-56A6-0DCD-B8FC1306169A" localFKIndex="05D891D8-982F-9E69-E42E-664427096539" name="KlantOrder_Winkel_FK">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 15:16:08 UTC</createdTime>
+<generatorID>741FF0D3-BA98-258B-1BE8-434C530845AA</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<referredTableLongName>Winkel</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F8DDA2B3-C116-5DB4-571C-50CEA1B8CE9C</referredTableID>
+<keyObject>FDFB42EF-E950-ADB8-431A-77BC4B3C2F72</keyObject>
+<referredKeyID>FDFB42EF-E950-ADB8-431A-77BC4B3C2F72</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>winkel_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

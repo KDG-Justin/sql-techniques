@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9FFCA69E-3C87-66AD-051E-62C02E294743" name="Console">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-09 08:19:04 UTC</createdTime>
+<generatorID>A68E2828-8C3D-FEDC-1D13-09F2E979056E</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="consoleNaam" id="B16D1E07-D7C9-BA98-F2EF-3B7B6244BBC0">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-09 08:19:04 UTC</createdTime>
+<generatorID>03FA0705-289E-1E81-34FA-D37D0D80CECD</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prijs" id="BF2BC03F-4291-4347-1ED1-588CA2B7A126">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-09 08:19:04 UTC</createdTime>
+<generatorID>018A0FE8-D6BA-7919-8E6D-8DBE21AB7B11</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="release" id="6058BC00-A04E-A2F4-A600-A4F00257D801">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-09 08:19:04 UTC</createdTime>
+<generatorID>15E9021C-26AA-4D1A-BDCC-E4EB6C2DF1CF</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="consoleId" id="45A6F2D5-A06A-36C6-5E16-484D62FEF4FA">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-09 08:19:04 UTC</createdTime>
+<generatorID>4E92B38B-A42C-075C-1DFA-DEA686B34691</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="45408CF6-7C08-C575-5CC5-C735ACA52E09" name="Console_PK">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-09 08:19:04 UTC</createdTime>
+<generatorID>FE1D728F-E961-15E2-90CE-518BB528131B</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45A6F2D5-A06A-36C6-5E16-484D62FEF4FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

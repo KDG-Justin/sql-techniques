@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6749D6C2-F332-46E9-B5D8-1335EE988E00" name="Werknemer">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 13:19:42 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CB348F68-730E-F369-DD63-163AA4B78007" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="werknemer_voornaam" id="E5E24AFC-0BF2-F733-24DE-6F719031E94B">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 13:19:49 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CB348F68-730E-F369-DD63-163AA4B78007" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="werknemer_achternaam" id="0AEAAEFC-FBBF-2555-F401-A04B0C9269CC">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 13:20:17 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CB348F68-730E-F369-DD63-163AA4B78007" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="werknemer_id" id="B0C0B73A-8859-B0A0-E7E5-B7AB63CDF780">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 13:20:55 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CB348F68-730E-F369-DD63-163AA4B78007" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is_manager" id="8524E6C5-3091-CD74-7D8A-67EA6CA00389">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 13:21:17 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CB348F68-730E-F369-DD63-163AA4B78007" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="winkel_id" id="457E25C0-5E12-F931-4DBE-2BECD4E67F53">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 13:22:36 UTC</createdTime>
+<generatorID>FEC9F477-12A8-FD02-F695-5D255EF91585</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CB348F68-730E-F369-DD63-163AA4B78007" value="true"/>
+</engineerTo>
+<referedAttribute>E1FE8A0C-AA0F-7A52-BBA4-FB8B5E58DC82</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DA6C6305-BF70-2465-803E-EAFEC03A7610" name="Werknemer PK">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 13:21:10 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CB348F68-730E-F369-DD63-163AA4B78007" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B0C0B73A-8859-B0A0-E7E5-B7AB63CDF780</attributeRef>
+<attributeRef>457E25C0-5E12-F931-4DBE-2BECD4E67F53</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

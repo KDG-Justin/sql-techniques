@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6FA55C8-FB1D-7E72-6F1E-11BFF292D7A2" name="Levering">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-07 14:12:26 UTC</createdTime>
+<generatorID>77514C2E-19F3-5621-7360-A3B4919C31E8</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="leveringsnummer" id="DBE17E1C-B14A-CEB8-1DDC-4B5D84A3C133">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-07 14:12:26 UTC</createdTime>
+<generatorID>C37C997B-E8F7-8969-52C1-F2E1F1FC7F82</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="leveringsdatum" id="93DD230B-A935-CBC4-CE3A-09B6D078950B">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-07 14:12:26 UTC</createdTime>
+<generatorID>5777527E-ED03-37D4-F157-8A82E6608A47</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="leveringsadres" id="EC2F890C-925B-7D66-152B-CA4B3944A4BD">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-07 14:12:26 UTC</createdTime>
+<generatorID>852D5273-D656-3AF5-50D8-D2AA9D98A0D8</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="totale_prijs" id="7D1EEE75-64E6-6F4E-6BA6-0C6F5E70324C">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-07 14:12:26 UTC</createdTime>
+<generatorID>9A1C01EB-6985-875B-CC58-1F81A7E3F18E</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Console_consoleId" id="A4718ED3-D48B-2B50-4BE1-E606A4DDF661">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-07 14:12:26 UTC</createdTime>
+<generatorID>87BF937F-3D48-BB40-252D-833F5CF138C1</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0051227A-1B35-97B8-47C8-90231EFC4FCB" referredColumn="A852F415-527E-78D1-9472-B367CB32361B"/>
+</associations>
+</Column>
+<Column name="Winkel_winkel_id" id="CC7944B8-D6D7-6DA0-319B-F38DBA4895FE">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-07 14:12:26 UTC</createdTime>
+<generatorID>615AFB38-798A-513D-56F5-9A4724C6BAEC</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4940049D-AD3B-7CBC-2754-2119AF802AAC" referredColumn="1BA5AFDD-4ACB-103D-D385-28F6F105989F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA1E15D5-EAA0-D684-685D-B34D8FBEA525" name="Levering_PK">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-07 14:12:26 UTC</createdTime>
+<generatorID>8D205953-AB08-96F5-7819-2B8CA0A1EF9C</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBE17E1C-B14A-CEB8-1DDC-4B5D84A3C133"/>
+<colUsage columnID="A4718ED3-D48B-2B50-4BE1-E606A4DDF661"/>
+<colUsage columnID="CC7944B8-D6D7-6DA0-319B-F38DBA4895FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="486FC2EA-0379-DB22-636F-8F10B4F91235" name="Levering_Console_FK">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-07 14:12:26 UTC</createdTime>
+<generatorID>CE83AEE3-B0DB-2475-6FA6-33D36502CF74</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4718ED3-D48B-2B50-4BE1-E606A4DDF661"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB12A433-D3CE-71D9-D78C-DF0E0BAEE3D3" name="Levering_Winkel_FK">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-07 14:12:26 UTC</createdTime>
+<generatorID>F7ACD617-EB2B-BF8A-ABCE-4BA5E4399D4B</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC7944B8-D6D7-6DA0-319B-F38DBA4895FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

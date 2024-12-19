@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="77514C2E-19F3-5621-7360-A3B4919C31E8" name="Levering">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 11:20:01 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="leveringsnummer" id="C37C997B-E8F7-8969-52C1-F2E1F1FC7F82">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 11:20:08 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="leveringsdatum" id="5777527E-ED03-37D4-F157-8A82E6608A47">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 11:21:30 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="leveringsadres" id="852D5273-D656-3AF5-50D8-D2AA9D98A0D8">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 11:23:49 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="totale_prijs" id="9A1C01EB-6985-875B-CC58-1F81A7E3F18E">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 11:24:12 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="consoleId" id="87BF937F-3D48-BB40-252D-833F5CF138C1">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 11:25:12 UTC</createdTime>
+<generatorID>CE83AEE3-B0DB-2475-6FA6-33D36502CF74</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<referedAttribute>4E92B38B-A42C-075C-1DFA-DEA686B34691</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="winkel_id" id="615AFB38-798A-513D-56F5-9A4724C6BAEC">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 11:25:22 UTC</createdTime>
+<generatorID>F7ACD617-EB2B-BF8A-ABCE-4BA5E4399D4B</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<referedAttribute>E1FE8A0C-AA0F-7A52-BBA4-FB8B5E58DC82</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8D205953-AB08-96F5-7819-2B8CA0A1EF9C" name="Levering PK">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 11:21:18 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C37C997B-E8F7-8969-52C1-F2E1F1FC7F82</attributeRef>
+<attributeRef>87BF937F-3D48-BB40-252D-833F5CF138C1</attributeRef>
+<attributeRef>615AFB38-798A-513D-56F5-9A4724C6BAEC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

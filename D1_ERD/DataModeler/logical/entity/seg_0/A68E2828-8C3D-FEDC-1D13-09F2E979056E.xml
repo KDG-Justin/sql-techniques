@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A68E2828-8C3D-FEDC-1D13-09F2E979056E" name="Console">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 13:16:35 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="consoleNaam" id="03FA0705-289E-1E81-34FA-D37D0D80CECD">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 13:16:42 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prijs" id="018A0FE8-D6BA-7919-8E6D-8DBE21AB7B11">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 13:18:39 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="release" id="15E9021C-26AA-4D1A-BDCC-E4EB6C2DF1CF">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 13:18:59 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="consoleId" id="4E92B38B-A42C-075C-1DFA-DEA686B34691">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 13:20:30 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FE1D728F-E961-15E2-90CE-518BB528131B" name="Console PK">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 13:19:11 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4E92B38B-A42C-075C-1DFA-DEA686B34691</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

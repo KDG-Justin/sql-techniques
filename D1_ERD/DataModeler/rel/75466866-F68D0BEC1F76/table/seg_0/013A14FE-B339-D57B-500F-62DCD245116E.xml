@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="013A14FE-B339-D57B-500F-62DCD245116E" name="KlantOrder">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-27 19:37:48 UTC</createdTime>
+<generatorID>9759B74F-8408-90BD-F8DD-DCF94986DF69</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="orderId" id="0053D1DC-6A4C-2CD5-9B09-CCAD85C18A25">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-27 19:37:48 UTC</createdTime>
+<generatorID>89165393-CCAF-A5A2-C559-FA3A89B6B1E5</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prijs" id="FDEDA6AB-6246-4CEF-02C9-BAA8CFC40033">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-27 19:37:48 UTC</createdTime>
+<generatorID>4AD0F3F4-F296-9A20-E5EC-EF9883420094</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OrderLijn_orderLijnId" id="A65F0C63-F420-9F41-5C9F-351D343657FD">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-27 19:37:48 UTC</createdTime>
+<generatorID>C92B78C3-A738-ED3A-A277-F24B5B73AF7E</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7756946-42AC-4218-B323-D431C1B21A03" referredColumn="487B09D4-88F7-044A-DB0F-CF39EBD8C5E2"/>
+</associations>
+</Column>
+<Column name="Klant_klantId" id="9AF3B5FF-4CCC-93CE-D4B0-8C3F5A8A3529">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-27 19:37:48 UTC</createdTime>
+<generatorID>4038397F-D802-7780-6548-E4F70F27AFEF</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DA71F22-1CA7-B62A-7C55-EAF488A7E418" referredColumn="1BE1E9AA-7D93-1FC3-3B03-E78C7251173C"/>
+</associations>
+</Column>
+<Column name="Winkel_winkel_id" id="53E22DC7-E5BC-A58D-BDDD-0112894DE0F4">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-27 19:37:48 UTC</createdTime>
+<generatorID>C68DBA03-94A5-783C-E813-6464B2A133C4</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A5B16D5-3CDD-146E-2F88-E8863869AF51" referredColumn="50AF5C67-943C-FF62-3718-5819EE7F6212"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="43D95BBA-1E0D-1060-836D-80DDD70945FD" name="KlantOrder_PK">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-27 19:37:48 UTC</createdTime>
+<generatorID>5B67E6B6-A3EC-FD51-1F42-5EC7D8D1F63F</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0053D1DC-6A4C-2CD5-9B09-CCAD85C18A25"/>
+<colUsage columnID="53E22DC7-E5BC-A58D-BDDD-0112894DE0F4"/>
+<colUsage columnID="9AF3B5FF-4CCC-93CE-D4B0-8C3F5A8A3529"/>
+<colUsage columnID="A65F0C63-F420-9F41-5C9F-351D343657FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DA28B49-EC58-8977-0BD3-7AF060159433" name="KlantOrder_Klant_FK">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-27 19:37:48 UTC</createdTime>
+<generatorID>B7B4E017-80B5-7426-1C84-DB39BC9A7926</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AF3B5FF-4CCC-93CE-D4B0-8C3F5A8A3529"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3381823-F0B6-3DE4-4234-5634AE040171" name="KlantOrder_Winkel_FK">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-27 19:37:48 UTC</createdTime>
+<generatorID>741FF0D3-BA98-258B-1BE8-434C530845AA</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53E22DC7-E5BC-A58D-BDDD-0112894DE0F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5BC2B7A-F2F1-BF87-72DC-48AB9C736CEB" name="KlantOrder_OrderLijn_FK">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-27 19:37:48 UTC</createdTime>
+<generatorID>4419F527-5FE6-277E-826F-CA83C6930164</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A65F0C63-F420-9F41-5C9F-351D343657FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

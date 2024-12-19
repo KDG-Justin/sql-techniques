@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8779E829-1063-038C-F86D-A96CC93C9B03" name="Bedrijf">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 13:09:58 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CB348F68-730E-F369-DD63-163AA4B78007" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="naam" id="2ADAAF8D-55E3-897E-C0EB-0A247C179E10">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 13:11:49 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CB348F68-730E-F369-DD63-163AA4B78007" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bedrijfId" id="4FD94E10-98B3-6FA8-5AE8-308DDAA66F80">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 13:18:10 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CB348F68-730E-F369-DD63-163AA4B78007" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bedrijf_adres" id="CEEA8559-1972-31E5-A546-F9AF7C1D8184">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-15 08:18:50 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CB348F68-730E-F369-DD63-163AA4B78007" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="consoleId" id="0BFD223F-04ED-CFC3-73CA-19CB3E7D5FD2">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 13:30:47 UTC</createdTime>
+<generatorID>E9564011-E7E9-EA6D-F625-58898BBDF1F0</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CB348F68-730E-F369-DD63-163AA4B78007" value="true"/>
+</engineerTo>
+<referedAttribute>4E92B38B-A42C-075C-1DFA-DEA686B34691</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bedrijf_land" id="A3A45B2B-F2EA-C2F8-B2AA-44B06319B039">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-09 08:10:29 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CB348F68-730E-F369-DD63-163AA4B78007" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="26746AC7-6A91-7840-00B0-7718C9512812" name="Bedrijf PK">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 13:18:30 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CB348F68-730E-F369-DD63-163AA4B78007" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4FD94E10-98B3-6FA8-5AE8-308DDAA66F80</attributeRef>
+<attributeRef>0BFD223F-04ED-CFC3-73CA-19CB3E7D5FD2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

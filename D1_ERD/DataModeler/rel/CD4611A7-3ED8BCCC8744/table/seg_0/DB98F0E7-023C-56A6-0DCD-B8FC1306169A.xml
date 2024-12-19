@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB98F0E7-023C-56A6-0DCD-B8FC1306169A" name="KlantOrder">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 15:16:08 UTC</createdTime>
+<generatorID>9759B74F-8408-90BD-F8DD-DCF94986DF69</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="orderId" id="B094D596-5174-2F94-9083-6D724289F67A">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 15:16:08 UTC</createdTime>
+<generatorID>89165393-CCAF-A5A2-C559-FA3A89B6B1E5</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prijs" id="06845367-5210-870E-1029-A1998DE71971">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 15:16:08 UTC</createdTime>
+<generatorID>4AD0F3F4-F296-9A20-E5EC-EF9883420094</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klant_klantId" id="35AD3D96-6798-5A66-86CE-288BB44DB00C">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 15:16:08 UTC</createdTime>
+<generatorID>4038397F-D802-7780-6548-E4F70F27AFEF</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2AD937C1-20A0-C3EA-4CF6-7B9E4EBE1817" referredColumn="618DC2F6-EACE-3D69-0299-60E90F695CF4"/>
+</associations>
+</Column>
+<Column name="Winkel_winkel_id" id="513BAAE6-8984-2A61-5098-DAD4058F9A3A">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 15:16:08 UTC</createdTime>
+<generatorID>C68DBA03-94A5-783C-E813-6464B2A133C4</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00F5E890-5695-E0A0-E57F-EE12B9271C4B" referredColumn="00702C26-C711-76BB-9FF1-2E32BB365FFB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5484A978-38FA-2507-CB06-7C710832D2B4" name="KlantOrder_PK">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 15:16:08 UTC</createdTime>
+<generatorID>5B67E6B6-A3EC-FD51-1F42-5EC7D8D1F63F</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B094D596-5174-2F94-9083-6D724289F67A"/>
+<colUsage columnID="513BAAE6-8984-2A61-5098-DAD4058F9A3A"/>
+<colUsage columnID="35AD3D96-6798-5A66-86CE-288BB44DB00C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6469A9D7-636F-874B-0172-2FCC2373D24D" name="KlantOrder_Klant_FK">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 15:16:08 UTC</createdTime>
+<generatorID>B7B4E017-80B5-7426-1C84-DB39BC9A7926</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35AD3D96-6798-5A66-86CE-288BB44DB00C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05D891D8-982F-9E69-E42E-664427096539" name="KlantOrder_Winkel_FK">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 15:16:08 UTC</createdTime>
+<generatorID>741FF0D3-BA98-258B-1BE8-434C530845AA</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="513BAAE6-8984-2A61-5098-DAD4058F9A3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

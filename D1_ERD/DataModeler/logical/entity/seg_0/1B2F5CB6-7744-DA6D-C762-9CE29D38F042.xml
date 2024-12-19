@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B2F5CB6-7744-DA6D-C762-9CE29D38F042" name="Klant">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 19:22:13 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CB348F68-730E-F369-DD63-163AA4B78007" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="naam" id="5282DFC4-7BB0-7149-7414-DC503EF14DAE">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 19:22:28 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CB348F68-730E-F369-DD63-163AA4B78007" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="klantId" id="B760577A-190F-0E89-7334-A58544CF52E2">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 19:23:13 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CB348F68-730E-F369-DD63-163AA4B78007" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="leeftijd" id="CBFF777D-9715-DB1F-C71C-B5C96098AF6A">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-15 09:28:35 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CB348F68-730E-F369-DD63-163AA4B78007" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adres" id="5FB3E0CF-8D93-178C-A1D6-F62E8DAFB1D3">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-15 09:29:15 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CB348F68-730E-F369-DD63-163AA4B78007" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AB0F89BB-D271-B30C-0D8A-14004482B577" name="Klant PK">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 19:23:31 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CB348F68-730E-F369-DD63-163AA4B78007" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B760577A-190F-0E89-7334-A58544CF52E2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

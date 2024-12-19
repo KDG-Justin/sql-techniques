@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="511B42AC-0782-EF1F-82DE-2F52FF7499BA" containerWithKeyObject="AFB79F72-043A-0C5C-2667-C55F2DF19C63" localFKIndex="8BC2C214-DE93-E80A-4695-46760A5267A4" name="KlantOrder_Klant_FK">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-23 22:16:37 UTC</createdTime>
+<generatorID>092ADD81-EB4D-0B33-C945-D71055015343</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<referredTableLongName>Klant</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>088E1527-A067-989F-26DE-74FEFB835CD5</referredTableID>
+<keyObject>E3ACE3D9-7B6F-9413-6EFC-B3CC2903C3CC</keyObject>
+<referredKeyID>E3ACE3D9-7B6F-9413-6EFC-B3CC2903C3CC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>klantId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

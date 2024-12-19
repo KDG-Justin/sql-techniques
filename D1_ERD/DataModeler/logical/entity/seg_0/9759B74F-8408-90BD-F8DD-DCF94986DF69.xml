@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9759B74F-8408-90BD-F8DD-DCF94986DF69" name="KlantOrder">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 19:23:48 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD4611A7-7526-1C51-1F82-3ED8BCCC8744" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="orderId" id="89165393-CCAF-A5A2-C559-FA3A89B6B1E5">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 19:24:09 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD4611A7-7526-1C51-1F82-3ED8BCCC8744" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prijs" id="4AD0F3F4-F296-9A20-E5EC-EF9883420094">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 19:24:22 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD4611A7-7526-1C51-1F82-3ED8BCCC8744" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="klantId" id="4038397F-D802-7780-6548-E4F70F27AFEF">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-27 19:21:57 UTC</createdTime>
+<generatorID>B7B4E017-80B5-7426-1C84-DB39BC9A7926</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD4611A7-7526-1C51-1F82-3ED8BCCC8744" value="true"/>
+</engineerTo>
+<referedAttribute>B760577A-190F-0E89-7334-A58544CF52E2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="winkel_id" id="C68DBA03-94A5-783C-E813-6464B2A133C4">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-27 19:22:52 UTC</createdTime>
+<generatorID>741FF0D3-BA98-258B-1BE8-434C530845AA</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD4611A7-7526-1C51-1F82-3ED8BCCC8744" value="true"/>
+</engineerTo>
+<referedAttribute>E1FE8A0C-AA0F-7A52-BBA4-FB8B5E58DC82</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5B67E6B6-A3EC-FD51-1F42-5EC7D8D1F63F" name="Klant_Order PK">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 19:24:19 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="CD4611A7-7526-1C51-1F82-3ED8BCCC8744" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>89165393-CCAF-A5A2-C559-FA3A89B6B1E5</attributeRef>
+<attributeRef>C68DBA03-94A5-783C-E813-6464B2A133C4</attributeRef>
+<attributeRef>4038397F-D802-7780-6548-E4F70F27AFEF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

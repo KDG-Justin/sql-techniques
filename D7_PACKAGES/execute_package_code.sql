@@ -1,0 +1,31 @@
+
+BEGIN
+    PKG_CONSOLES.EMPTY_TABLES();
+    PKG_CONSOLES.MANUELE_INPUT_M4();
+END;
+-- Milestone 5
+BEGIN
+    PKG_CONSOLES.BEWIJS_MILESTONE_5();
+    COMMIT;
+END;
+
+-- Milestone 6
+BEGIN
+    PKG_CONSOLES.PRINT_REPORT_2_LEVELS(1, 2, 27);
+END;
+
+alter session set "_partition_large_extents" = false;
+-- Milestone 7
+BEGIN
+    DBMS_OUTPUT.PUT_LINE('COMPARISON SINGLE BULK - Comparison_Single_Bulk_M7(20,40,50)');
+    PKG_CONSOLES.COMPARISON_SINGLE_BULK_M7(20,40,50);
+    DBMS_OUTPUT.PUT_LINE('=============================================================');
+    DBMS_OUTPUT.PUT_LINE('COMPARISON SINGLE BULK - Comparison_Single_Bulk_M7(20,40,500)');
+    PKG_CONSOLES.COMPARISON_SINGLE_BULK_M7(20,40,500);
+END;
+
+-- Milestone 8
+BEGIN
+  PKG_CONSOLES.COMPARISON_SINGLE_BULK_M7(20, 40, 1000);
+END;
+

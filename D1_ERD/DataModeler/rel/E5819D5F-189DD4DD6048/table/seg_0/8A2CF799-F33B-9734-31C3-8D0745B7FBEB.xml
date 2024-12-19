@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A2CF799-F33B-9734-31C3-8D0745B7FBEB" name="Werknemer">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-23 22:16:37 UTC</createdTime>
+<generatorID>450A3D7C-6DF7-43A4-DD83-3911471AFF06</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="voornaam" id="0808084D-00CC-6ACB-B75D-E318431EAF64">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-23 22:16:37 UTC</createdTime>
+<generatorID>56D03D12-7CA7-CA45-E40F-633660F6F69A</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="achternaam" id="59BF0AE7-63DD-2667-FB6F-98D9F93F51BC">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-23 22:16:37 UTC</createdTime>
+<generatorID>F6912B1F-C1FC-1063-FF3F-0856296DF0C5</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id" id="37CB5EBB-22A8-AFB2-9269-3280A3FA566F">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-23 22:16:37 UTC</createdTime>
+<generatorID>6BFF318C-2568-8C18-B76C-461B064E3E9B</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_manager" id="62F53C62-86AD-7F77-D53E-939BDA997622">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-23 22:16:37 UTC</createdTime>
+<generatorID>8E9185BF-642F-0DCE-2E4E-D317DC7C18DB</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Werknemer_id" id="DA19C357-9153-64E1-CC5C-A310A9B12C7B">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-23 22:16:37 UTC</createdTime>
+<generatorID>2F703E31-ECFA-6748-51C4-A902E6E70286</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C6F1845-DDCF-DBDF-01C5-C43467F857D4" referredColumn="37CB5EBB-22A8-AFB2-9269-3280A3FA566F"/>
+</associations>
+</Column>
+<Column name="Winkel_winkel_id" id="7D08E1F9-4083-5853-8AC6-9EABBDB9C46B">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-23 22:16:37 UTC</createdTime>
+<generatorID>DE06CEB7-62EF-5F27-094E-951173AAE4F9</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC27A93B-8D2F-BBB8-4E79-B0D60EFAB4AA" referredColumn="D505B976-546C-E1DE-DBC8-7C7CFED2F17F"/>
+</associations>
+</Column>
+<Column name="Werknemer_winkel_id" id="846BE30D-E4F2-6A6A-A303-C9AB2E1F2888">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-23 22:16:37 UTC</createdTime>
+<generatorID>001A2183-CBAF-53F9-F658-A251366C7CD3</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C6F1845-DDCF-DBDF-01C5-C43467F857D4" referredColumn="7D08E1F9-4083-5853-8AC6-9EABBDB9C46B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F99DBD90-0579-3418-40B9-159A45B91376" name="Werknemer_PK">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-23 22:16:37 UTC</createdTime>
+<generatorID>80894B14-A7E9-4AC4-D9DF-8DFF12A15DCC</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37CB5EBB-22A8-AFB2-9269-3280A3FA566F"/>
+<colUsage columnID="7D08E1F9-4083-5853-8AC6-9EABBDB9C46B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8ADB361-EBC7-35C0-2B5F-8CD7DCD5EFF3" name="Werknemer_Werknemer_FK">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-23 22:16:37 UTC</createdTime>
+<generatorID>ED9AEC0C-CBB2-E3C5-B7FC-4576A4C2B48E</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA19C357-9153-64E1-CC5C-A310A9B12C7B"/>
+<colUsage columnID="846BE30D-E4F2-6A6A-A303-C9AB2E1F2888"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="312D76E9-5005-AC0E-20BC-755B4AA64726" name="Werknemer_Winkel_FK">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-23 22:16:37 UTC</createdTime>
+<generatorID>EE5AB87E-5F46-E06B-3816-F5F63A8CB450</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D08E1F9-4083-5853-8AC6-9EABBDB9C46B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

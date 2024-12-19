@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29C71DBA-FCAF-D00A-9754-4FC671AB4AF8" name="Bestelling">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-23 22:16:37 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<ordsAlias>relation_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Winkel_winkel_id" id="9F530112-B6D8-8B93-F617-AB6BB25E5FA6">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-23 22:16:37 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32BBC8E9-2BCD-12E7-C291-118E33B7B977" referredColumn="D505B976-546C-E1DE-DBC8-7C7CFED2F17F"/>
+</associations>
+</Column>
+<Column name="Klant_klantId" id="9D49BE33-B010-547D-E181-5674278A7FE4">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-23 22:16:37 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB564380-6EA2-70EF-BCD4-62042BFA18E1" referredColumn="8964C747-6DF4-C6EA-41CD-EEDA88B08467"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F82E98CB-F1EC-C7A8-F81F-6876C902B2FB" name="Relation_12_PK">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-23 22:16:37 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F530112-B6D8-8B93-F617-AB6BB25E5FA6"/>
+<colUsage columnID="9D49BE33-B010-547D-E181-5674278A7FE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB936346-37A3-DDBF-EDE9-07A395601D2C" name="Relation_12_Winkel_FK">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-23 22:16:37 UTC</createdTime>
+<generatorID>269FE9A0-20B4-5772-709F-01AEE8C5903A</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F530112-B6D8-8B93-F617-AB6BB25E5FA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22A9E1AB-4FFD-BEDB-92D8-09556A8C8707" name="Relation_12_Klant_FK">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-23 22:16:37 UTC</createdTime>
+<generatorID>269FE9A0-20B4-5772-709F-01AEE8C5903A</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D49BE33-B010-547D-E181-5674278A7FE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

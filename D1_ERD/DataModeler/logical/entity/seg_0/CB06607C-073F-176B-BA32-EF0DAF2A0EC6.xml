@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CB06607C-073F-176B-BA32-EF0DAF2A0EC6" name="OrderLijn">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 20:24:40 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="orderLijnId" id="76E9C60A-55F6-38E1-42D8-63A24AE2D9CF">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 20:32:43 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Console_consoleNaam" id="78C9E192-55AE-2C99-9009-5104D834E137">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 20:33:46 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aantal" id="B78AC7A1-23FA-1F24-ED42-0BAB1DFE739B">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-15 09:37:24 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prijs" id="2F56A03E-6EE4-0D12-C068-8CCB4B613071">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-27 19:34:16 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="orderId" id="B1C463D0-9BD8-C74C-F541-7423D59C7C1A">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 11:02:15 UTC</createdTime>
+<generatorID>4BF20E8F-8200-1C74-959F-1EC383B9066A</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<referedAttribute>89165393-CCAF-A5A2-C559-FA3A89B6B1E5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="winkel_id" id="6C8FFE37-F137-D36E-7B8E-27E57FA81CAB">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 11:02:15 UTC</createdTime>
+<generatorID>4BF20E8F-8200-1C74-959F-1EC383B9066A</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<referedAttribute>C68DBA03-94A5-783C-E813-6464B2A133C4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="klantId" id="562C90B9-4A1F-13E9-0C71-D279EDFDBCE1">
+<createdBy>hp</createdBy>
+<createdTime>2023-03-06 11:02:15 UTC</createdTime>
+<generatorID>4BF20E8F-8200-1C74-959F-1EC383B9066A</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<referedAttribute>4038397F-D802-7780-6548-E4F70F27AFEF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="64BE4546-ACA0-4880-9CC1-B4762E8364A4" name="OrderLijn PK">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 20:33:00 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>76E9C60A-55F6-38E1-42D8-63A24AE2D9CF</attributeRef>
+<attributeRef>B1C463D0-9BD8-C74C-F541-7423D59C7C1A</attributeRef>
+<attributeRef>6C8FFE37-F137-D36E-7B8E-27E57FA81CAB</attributeRef>
+<attributeRef>562C90B9-4A1F-13E9-0C71-D279EDFDBCE1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

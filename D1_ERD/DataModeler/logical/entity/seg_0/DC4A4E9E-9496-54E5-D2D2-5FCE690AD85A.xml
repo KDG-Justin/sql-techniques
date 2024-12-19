@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DC4A4E9E-9496-54E5-D2D2-5FCE690AD85A" name="Winkel">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 16:54:14 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="winkel_naam" id="946D5D04-5DAD-FB49-65E1-95E9F92E25B9">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 16:54:26 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="winkel_email" id="25C73A67-A1A4-E96E-4199-9DAC01ED057F">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 16:55:04 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stock" id="769B78F5-EA96-E61E-B5B1-ACE054751CB3">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 19:16:25 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="winkel_adres" id="91B1D6DA-5311-81D4-35C2-FA42766B105B">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 19:16:48 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="winkel_id" id="E1FE8A0C-AA0F-7A52-BBA4-FB8B5E58DC82">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 19:20:30 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="winkel_telefoon" id="C5D4D927-6FDA-031B-2AB8-38247D73E29D">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 19:31:16 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5FC1C7C4-F5EA-819C-5F09-FB5721C39329" name="Winkel PK">
+<createdBy>hp</createdBy>
+<createdTime>2023-02-13 19:20:53 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="D259FE28-B472-3A1E-4965-CCB6BFE47AE1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E1FE8A0C-AA0F-7A52-BBA4-FB8B5E58DC82</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

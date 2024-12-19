@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<cwd_glossary name="Glossary - Logische model" description="generated from logical model of design DataModeler" id="7E8B5DDF-7682-9A89-374B-F237A630D392" incomplete_modifiers="true" >
+
+   <glossaryWord name="Adres" plural="" abbreviation="" alt_abbreviation="" id="EFC83E4F-7719-40B8-6788-D11974B0C09C" import_id="" description="" />
+   <glossaryWord name="Bedrijf" plural="" abbreviation="" alt_abbreviation="" id="5BFDE625-FB87-EC2C-CFD9-39D4DBD306C4" import_id="" description="" />
+   <glossaryWord name="Console" plural="" abbreviation="" alt_abbreviation="" id="66CE8752-105D-CC48-E79C-3EB390E31B6F" import_id="" description="" />
+   <glossaryWord name="Console_consoleId" plural="" abbreviation="" alt_abbreviation="" id="89EE2CAE-3FF6-A319-576A-72AC31CBD357" import_id="" description="" />
+   <glossaryWord name="Klant" plural="" abbreviation="" alt_abbreviation="" id="D5E771C0-A9DF-0AB0-160C-03F0096CEA58" import_id="" description="" />
+   <glossaryWord name="KlantOrder" plural="" abbreviation="" alt_abbreviation="" id="731E491C-AF82-6AAD-797C-8DE5CFD2A47A" import_id="" description="" />
+   <glossaryWord name="KlantOrder_orderId" plural="" abbreviation="" alt_abbreviation="" id="1C1BA552-CFE3-6745-2AA9-7BFD3C49042C" import_id="" description="" />
+   <glossaryWord name="Klant_Order" plural="" abbreviation="" alt_abbreviation="" id="6289BBC5-9E2C-24FA-FDD9-54E807E3D005" import_id="" description="" />
+   <glossaryWord name="Klant_klantId" plural="" abbreviation="" alt_abbreviation="" id="E87579BC-5A72-D9E1-8513-24BB0D65FB7A" import_id="" description="" />
+   <glossaryWord name="Levering" plural="" abbreviation="" alt_abbreviation="" id="61361B06-8EBC-7C71-CF8D-C2B384666EB6" import_id="" description="" />
+   <glossaryWord name="OrderLijn" plural="" abbreviation="" alt_abbreviation="" id="281B4DCE-C0D9-38FE-3E8A-CD734AB46131" import_id="" description="" />
+   <glossaryWord name="PK" plural="" abbreviation="" alt_abbreviation="" id="390EF2F5-C02B-6128-6D8F-8680765A0186" import_id="" description="" />
+   <glossaryWord name="Werknemer" plural="" abbreviation="" alt_abbreviation="" id="EE7FEADB-072C-A048-7BFA-CC671528D09C" import_id="" description="" />
+   <glossaryWord name="Winkel" plural="" abbreviation="" alt_abbreviation="" id="AA9D93F9-5E01-1088-3CD1-5F982188A0BD" import_id="" description="" />
+   <glossaryWord name="Winkel_winkelId" plural="" abbreviation="" alt_abbreviation="" id="406BB437-9C5C-BAF4-CFDC-CB0D039E6B6C" import_id="" description="" />
+   <glossaryWord name="aantal" plural="" abbreviation="" alt_abbreviation="" id="E389147D-EA0E-6067-FB47-4D2B12AC171C" import_id="" description="" />
+   <glossaryWord name="achternaam" plural="" abbreviation="" alt_abbreviation="" id="1CD2E6E0-2838-A203-3AFB-87046D7947BE" import_id="" description="" />
+   <glossaryWord name="bedrijfId" plural="" abbreviation="" alt_abbreviation="" id="EB7BCA9B-591A-8D60-7E85-BF9C7DEBF48F" import_id="" description="" />
+   <glossaryWord name="bedrijf_adres" plural="" abbreviation="" alt_abbreviation="" id="75C6D8AA-398F-071F-CE89-E25A27E7C9F6" import_id="" description="" />
+   <glossaryWord name="consoleId" plural="" abbreviation="" alt_abbreviation="" id="0A1A7C06-D684-29BB-E34E-F4C682AD32B8" import_id="" description="" />
+   <glossaryWord name="consoleNaam" plural="" abbreviation="" alt_abbreviation="" id="C8877AA0-E96C-3195-4FD2-3F020D054677" import_id="" description="" />
+   <glossaryWord name="id" plural="" abbreviation="" alt_abbreviation="" id="F502998C-07B6-6C37-8A9A-069EAEE0CD82" import_id="" description="" />
+   <glossaryWord name="is_manager" plural="" abbreviation="" alt_abbreviation="" id="5158A436-86DE-5698-97F2-5C91F3B0C416" import_id="" description="" />
+   <glossaryWord name="klantId" plural="" abbreviation="" alt_abbreviation="" id="CACC6318-0FB3-805C-64FE-3B1D25F362FC" import_id="" description="" />
+   <glossaryWord name="leeftijd" plural="" abbreviation="" alt_abbreviation="" id="A16673C9-B58D-C90D-E931-F78B0DA96B2D" import_id="" description="" />
+   <glossaryWord name="leveringsadres" plural="" abbreviation="" alt_abbreviation="" id="337540BE-281C-7FA6-15ED-8E2F41116C25" import_id="" description="" />
+   <glossaryWord name="leveringsdatum" plural="" abbreviation="" alt_abbreviation="" id="2A3C8D60-9F6B-0EF4-B3AB-7C952F1C90F1" import_id="" description="" />
+   <glossaryWord name="naam" plural="" abbreviation="" alt_abbreviation="" id="FDD12409-DF9A-70CE-BB0E-08B8AD88939E" import_id="" description="" />
+   <glossaryWord name="nummer" plural="" abbreviation="" alt_abbreviation="" id="7BBA5AD6-FE86-65A9-EF66-7FA0396A6238" import_id="" description="" />
+   <glossaryWord name="orderId" plural="" abbreviation="" alt_abbreviation="" id="04C2AD4A-A200-1317-55E0-43B61457AA4E" import_id="" description="" />
+   <glossaryWord name="orderLijnId" plural="" abbreviation="" alt_abbreviation="" id="522C62EF-6BA6-E7ED-EBA7-198516D69513" import_id="" description="" />
+   <glossaryWord name="postcode" plural="" abbreviation="" alt_abbreviation="" id="7BEBDBC2-3907-E7FD-357B-DECC16610560" import_id="" description="" />
+   <glossaryWord name="prijs" plural="" abbreviation="" alt_abbreviation="" id="E2285897-CBF1-1EDB-1BDA-03483563730E" import_id="" description="" />
+   <glossaryWord name="release" plural="" abbreviation="RLE" alt_abbreviation="" id="FBE042B5-D4B9-16F5-DAD2-FC8DC34DEEF3" import_id="" description="" />
+   <glossaryWord name="stock" plural="" abbreviation="STK" alt_abbreviation="" id="737E6D35-919C-5C6A-D408-E899B1BC23F8" import_id="" description="" />
+   <glossaryWord name="straat" plural="" abbreviation="" alt_abbreviation="" id="D36768FC-5475-B6B6-46EF-FBA176F750BB" import_id="" description="" />
+   <glossaryWord name="totale_prijs" plural="" abbreviation="" alt_abbreviation="" id="0C773005-03B2-AA99-3CB8-55F94CBDDC2A" import_id="" description="" />
+   <glossaryWord name="voornaam" plural="" abbreviation="" alt_abbreviation="" id="6B8FE7D6-498C-873B-EB6B-C940B6BAD72B" import_id="" description="" />
+   <glossaryWord name="winkel_adres" plural="" abbreviation="" alt_abbreviation="" id="5A31C59D-6B34-5BE9-8B60-3D4491BD59B2" import_id="" description="" />
+   <glossaryWord name="winkel_email" plural="" abbreviation="" alt_abbreviation="" id="BF23B415-9A36-EFD2-E554-72E6C8EC07DD" import_id="" description="" />
+   <glossaryWord name="winkel_id" plural="" abbreviation="" alt_abbreviation="" id="A290C94E-F3BC-210B-79FB-DEF252263405" import_id="" description="" />
+   <glossaryWord name="winkel_naam" plural="" abbreviation="" alt_abbreviation="" id="EADDD6CF-AD1D-5276-F9F5-2780ECB61841" import_id="" description="" />
+   <glossaryWord name="winkel_telefoon" plural="" abbreviation="" alt_abbreviation="" id="FD5A3DAC-85D1-3375-422A-9E5839AD3196" import_id="" description="" />
+
+</cwd_glossary>
